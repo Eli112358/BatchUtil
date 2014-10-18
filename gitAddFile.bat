@@ -19,5 +19,5 @@ exit /b
 :fail
 echo File not found.
 :help
-echo usage: %~dp0 path\to\file.ext
+echo usage: %0 path\to\file.ext
 exit /b
