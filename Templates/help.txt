@@ -1,0 +1,7 @@
+@echo off
+if "%~1"=="" goto help
+if "%~1"=="/?" goto help
+
+:help
+echo usage: %0 args
+exit /b
